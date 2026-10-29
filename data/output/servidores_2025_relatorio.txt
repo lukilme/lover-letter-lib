@@ -1,0 +1,59 @@
+============================================================
+RELATÓRIO DE EXTRAÇÃO - SERVIDORES
+============================================================
+
+Data/Hora: 2026-10-28 22:02:06
+Total de registros: 1623534
+Tamanho em memória: 715.28 MB
+
+COLUNAS:
+------------------------------------------------------------
+  anoExercicio: int64 (0 nulos)
+  mesReferencia: int64 (0 nulos)
+  periodo: int64 (0 nulos)
+  nomeServidor: str (0 nulos)
+  cpfServidor: str (0 nulos)
+  matricula: str (0 nulos)
+  dataAdmissao: str (0 nulos)
+  sexo: str (0 nulos)
+  deficienteFisico: str (0 nulos)
+  administracao: str (0 nulos)
+  tipoCargo: str (0 nulos)
+  nomeCargo: str (0 nulos)
+  situacaoServidor: str (0 nulos)
+  regimeContratual: str (0 nulos)
+  cargaHorariaServidor: str (0 nulos)
+  escolaridadeMinimaCargo: str (0 nulos)
+  cnpjOrgao: str (1570419 nulos)
+  orgaoLotacao: str (0 nulos)
+  nomeUnidadeTrabalho: str (16 nulos)
+  siglaPoder: str (0 nulos)
+  nomeOrgaoDisposicao: str (1487829 nulos)
+  vantagemFixa: float64 (0 nulos)
+  vantagemVariavel: float64 (0 nulos)
+  valorRedutor: float64 (0 nulos)
+  valorBruto: float64 (0 nulos)
+  valorPrevidenciario: float64 (0 nulos)
+  valorIr: float64 (0 nulos)
+  descontoObrigatorio: float64 (0 nulos)
+  valorDesconto: float64 (0 nulos)
+  valorLiquido: float64 (0 nulos)
+
+ESTATÍSTICAS:
+------------------------------------------------------------
+        anoExercicio  mesReferencia       periodo         nomeServidor     cpfServidor matricula dataAdmissao      sexo deficienteFisico         administracao        tipoCargo                      nomeCargo situacaoServidor regimeContratual cargaHorariaServidor escolaridadeMinimaCargo       cnpjOrgao                  orgaoLotacao nomeUnidadeTrabalho siglaPoder nomeOrgaoDisposicao  vantagemFixa  vantagemVariavel  valorRedutor    valorBruto  valorPrevidenciario       valorIr  descontoObrigatorio  valorDesconto  valorLiquido
+count      1623534.0   1.623534e+06  1.623534e+06              1623534         1623534   1623534      1623534   1623534          1623534               1623534          1623534                        1623534          1623534          1623534              1623534                 1623534           53115                       1623534             1623518    1623534              135705  1.623534e+06      1.623534e+06  1.623534e+06  1.623534e+06         1.623534e+06  1.623534e+06         1.623534e+06   1.623534e+06  1.623534e+06
+unique           NaN            NaN           NaN               131500           78132    143963        12744         2                1                     2               20                           1245                3                6                    2                       3               6                            63                2743          2                 138           NaN               NaN           NaN           NaN                  NaN           NaN                  NaN            NaN           NaN
+top              NaN            NaN           NaN  MARIA JOSE DA SILVA  ***.789.504-**   9255982   2019-01-01  FEMININO              NÃO  ADMINISTRAÇÃO DIRETA  EFETIVO INATIVO  PROFESSOR DE EDUCACAO BAS III            ATIVO      ESTATUTARIO    40 HORAS SEMANAIS                SUPERIOR  38111778000140  PARAIBA PREVIDENCIA - PBPREV  PBPREV APOSENTADOS        EXE                UEPB           NaN               NaN           NaN           NaN                  NaN           NaN                  NaN            NaN           NaN
+freq             NaN            NaN           NaN                  839             132        12        82660    924161          1623534               1412636           446417                         163620           974373           931235              1331148                  925432           36950                        602645              367178    1412636               34819           NaN               NaN           NaN           NaN                  NaN           NaN                  NaN            NaN           NaN
+mean          2025.0   6.488425e+00  2.025065e+05                  NaN             NaN       NaN          NaN       NaN              NaN                   NaN              NaN                            NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN  5.462971e+03      1.441998e+03  1.715384e+01  6.904969e+03         4.004632e+02  5.859554e+02         9.864186e+02   1.003572e+03  5.901397e+03
+std              0.0   3.449749e+00  3.449749e+00                  NaN             NaN       NaN          NaN       NaN              NaN                   NaN              NaN                            NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN  5.452462e+03      3.781124e+03  4.029430e+02  6.703010e+03         6.380920e+02  1.315975e+03         1.802372e+03   1.923900e+03  5.034420e+03
+min           2025.0   1.000000e+00  2.025010e+05                  NaN             NaN       NaN          NaN       NaN              NaN                   NaN              NaN                            NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN  0.000000e+00      0.000000e+00  0.000000e+00  1.000000e-02         0.000000e+00  0.000000e+00         0.000000e+00   0.000000e+00  0.000000e+00
+25%           2025.0   3.000000e+00  2.025030e+05                  NaN             NaN       NaN          NaN       NaN              NaN                   NaN              NaN                            NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN  2.118000e+03      0.000000e+00  0.000000e+00  3.100000e+03         0.000000e+00  0.000000e+00         1.227000e+01   1.227000e+01  2.951480e+03
+50%           2025.0   6.000000e+00  2.025060e+05                  NaN             NaN       NaN          NaN       NaN              NaN                   NaN              NaN                            NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN  4.376880e+03      0.000000e+00  0.000000e+00  5.089080e+03         1.939500e+02  6.063000e+01         2.969400e+02   2.969400e+02  4.731570e+03
+75%           2025.0   9.000000e+00  2.025090e+05                  NaN             NaN       NaN          NaN       NaN              NaN                   NaN              NaN                            NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN  6.543150e+03      1.449120e+03  0.000000e+00  8.026200e+03         5.489100e+02  5.812750e+02         1.151560e+03   1.151570e+03  6.921880e+03
+max           2025.0   1.200000e+01  2.025120e+05                  NaN             NaN       NaN          NaN       NaN              NaN                   NaN              NaN                            NaN              NaN              NaN                  NaN                     NaN             NaN                           NaN                 NaN        NaN                 NaN  6.805527e+04      2.504593e+05  3.448542e+04  2.504593e+05         1.215528e+04  2.125976e+04         3.341504e+04   4.279011e+04  2.504593e+05
+
+ERROS ENCONTRADOS:
+------------------------------------------------------------
+  Nenhum erro!
