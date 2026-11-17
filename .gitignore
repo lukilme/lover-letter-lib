@@ -1,3 +1,7 @@
 .venv
 *.csv
 sead.duckdb
+
+*.duckdb
+*.duckdb-wal
+*.duckdb-shm
