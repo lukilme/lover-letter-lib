@@ -1,5 +1,5 @@
 .venv
-./data/output/*.csv
+data/output/*.csv
 sead.duckdb
 
 *.duckdb

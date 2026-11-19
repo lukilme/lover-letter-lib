@@ -7,7 +7,7 @@ body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-ap
 h1{font-size:18px;margin:0 0 4px}
 h2{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 8px}
 .card{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:12px}
-aside,main{display:grid;gap:14px;align-content:start;min-width:0}
+aside,main{display:grid;gap:14px;align-content:start;min-width:0;}
 textarea{width:100%;min-height:170px;resize:vertical;font:14px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:var(--code-bg);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px;tab-size:2}
 textarea:focus,input:focus{outline:2px solid var(--accent);outline-offset:1px}
 input[type=text]{flex:1;min-width:0;padding:8px 10px;border:1px solid var(--border);border-radius:8px;background:var(--code-bg);color:var(--text);font:inherit}
@@ -17,7 +17,7 @@ button:hover,label.btn:hover{border-color:var(--accent)}
 button.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-text);font-weight:600}
 button.small{padding:3px 8px;font-size:13px;position:static;}
 button:disabled{opacity:.5;cursor:not-allowed}
-main{margin:0px 10px; padding: 0 10px;}
+main{margin:0px 80px; padding: 0 10px;}
 .list{display:grid;gap:0px;margin:0;padding:0;list-style:none}
 .list li{display:flex;gap:6px;align-items:center;justify-content:space-between}
 .list .name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:left;border:none;background:none;padding:3px 0;color:var(--text);text-decoration:underline dotted}
