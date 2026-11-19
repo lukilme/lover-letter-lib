@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DuckDB Playground</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+</style>
+<link rel="stylesheet" href="./template/main.css">
+</head>
+<body>
+<div class="wrap">
+  <aside>
+    <div class="card">
+      <h1>🦆 DuckDB Playground</h1>
+      <div class="hint" id="status">Iniciando DuckDB-WASM…</div>
+    </div>
+    <div class="card">
+      <h2>Bancos .duckdb</h2>
+      <ul class="list" id="attached"></ul>
+      <div class="row">
+        <label class="btn small" title="Abre o arquivo sem carregá-lo inteiro na memória">🗃️ Abrir .duckdb
+          <input type="file" id="dbfile" accept=".duckdb,.db,.ddb" hidden>
+        </label>
+      </div>
+      <div class="hint" style="margin-top:6px">Somente leitura. O arquivo é lido em partes, direto do disco.</div>
+    </div>
+    <div class="card">
+      <h2>Tabelas</h2>
+      <ul class="list" id="tables"></ul>
+      <div class="row">
+        <label class="btn small" title="CSV, Parquet ou JSON">📂 Importar arquivo
+          <input type="file" id="file" accept=".csv,.parquet,.json,.tsv" hidden>
+        </label>
+        <button class="small" id="reset">Resetar</button>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Queries salvas</h2>
+      <ul class="list" id="saved"></ul>
+    </div>
+  </aside>
+  <main>
+    <div class="card">
+      <h2>Editor</h2>
+      <textarea id="sql" spellcheck="false" placeholder="Escreva seu SQL aqui…"></textarea>
+      <div class="row">
+        <button class="primary" id="run" disabled>▶ Executar</button>
+        <span class="hint">Ctrl/⌘ + Enter</span>
+      </div>
+      <div class="row">
+        <input type="text" id="qname" placeholder="Nome da query para salvar">
+        <button id="save">💾 Salvar</button>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Resultado</h2>
+      <div id="out" class="empty">Carregando…</div>
+    </div>
+  </main>
+</div>
+
+<script type="module" src="./template/main.js"></script>
+
+</script>
+<script type="module">
+
+</script>
+</body>
+</html>
